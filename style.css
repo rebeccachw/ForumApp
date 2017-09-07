@@ -1,0 +1,88 @@
+body{
+    font-family: monospace;
+    margin:0;
+    padding: 0;
+}
+
+#app{
+    width:100%;
+    height:100%;
+}
+
+#pic_name{
+    background-color:aliceblue;
+    width:25%;
+    height:100vh;
+    float:left;
+    text-align: center;
+    position: relative;
+}
+#message_panel{
+    background-color:bisque;
+    width:75%;
+    height:100vh;
+    float:right;
+    text-align: center;
+    overflow: auto;
+    position: relative;
+}
+input{
+    width:90%;
+    height:25px;
+    font-size: 12pt;
+    margin-top: 5px;
+}
+
+textarea{
+    margin-top: 10px;
+    width:80%;
+    height:70px;
+    font-size: 15pt;
+}
+
+#login{
+    background-color: #3b5998;
+    color:white;
+    font-size: 35pt;
+    text-indent: 13px;
+    line-height: 10px;
+    width:50px;
+    height:50px;
+    margin-top: 10px;
+}
+
+#profile_pic{
+    width:90%;
+    margin-top: 10px;
+    position:relative;
+}
+
+#map {
+    margin-top: 10px;
+    height: 30vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#record{
+    background-color: beige;
+    border-radius:25px;
+    width:50%;
+    padding:10px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#post_image{;
+    float: left;
+    width:20%;
+}
+
+#user_image{
+    margin-right: 5px;
+    transform:translateY(40%);
+    width:auto;
+    height:50px;
+}
